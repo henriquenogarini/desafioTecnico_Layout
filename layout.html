@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="layoutCss.css">
+<title>Criacao de Layout</title>
+<script src="script.js"></script>
+</head>
+<body>
+
+<div class="box1">
+    <img class="imagemarredondada" src="icon1.png" alt="icon1">
+    <h1>Lucas Itinerante</h1>
+    <p1>Teoricamente nesse texto haveria um breve resumo <br>sobre quem é Lucas Itinerante e algumas<br>coisas breves sobre sua personalidade<br> e gostos
+        abaixo podemos encontrar seu link <br>de algumas redes sociais.
+    </p1>
+    <ul>
+        <li><br><a href=”#”>Facebook</a><br></li>
+        <li><br><a href=”#”>Instagram</a><br></li>
+        <li><br><a href=”#”>Twitter</a><br></li>
+        <li><br><a href=”#”>Pinterest</a><br></li>
+        </ul>
+</div>
+
+<div class="box2">
+    <h2>Lista de Tarefas</h2>
+   
+    <table>
+        <tr>
+          <th>Dia</th>
+          <th>Noite</th>
+        </tr>
+        <tr>
+          <td>
+            <ol id="minhaLista">
+                <li>Colocar ração para os gatos</li><br>
+                <li>Colocar água para os gatos</li><br>
+                <li>Encher o pote de água dos gatos</li><br>
+                <li>Fazer um lanche para o café da manhã</li><br>
+                <li>Tomar um banho</li><br>
+                <li>Vestir a camisa de trabalho</li><br>
+                <li>Pegar o ônibus para o escritório</li><br>
+                <li>Ligar o computador do escritório</li><br>
+                <li>Pausa para o horário de almoço</li><br>
+                <li>Pausa para para lanche da tarde</li><br>
+              </ol>
+        </td>
+        <td>
+            <ol id="minhaLista2">
+                <li>Colocar ração para os gatos</li><br>
+                <li>Colocar água para os gatos</li><br>
+                <li>Encher o pote de água dos gatos</li><br>
+                <li>Fazer um lanche para o café da manhã</li><br>
+                <li>Tomar um banho</li><br>
+                <li>Vestir a camisa de trabalho</li><br>
+                <li>Pegar o ônibus para o escritório</li><br>
+                <li>Ligar o computador do escritório</li><br>
+                <li>Pausa para o horário de almoço</li><br>
+                <li>Pausa para para lanche da tarde</li><br>
+              </ol>
+        </td>
+        </tr>
+      </table>
+    <button class="button" onclick="adicionarItemDia()">Adicionar Item Dia</button>
+    <button class="button" onclick="removerItemDia()">Remover Item Dia</button>
+
+    <button class="button2" onclick="adicionarItemNoite()">Adicionar Item Noite</button>
+    <button class="button2" onclick="removerItemNoite()">Remover Item Noite</button>
+</div>
+
+</body>
+</html>
